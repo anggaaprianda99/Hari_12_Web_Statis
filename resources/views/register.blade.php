@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Buat Account Baru!</h2>
+    <h3>Sign Up Form</h3>
+
+    <form action="welcome.html">
+        <div class="form-group">
+            <label for="first">First Name</label>
+            <br><br>
+            <input type="text" id="name" placeholder="First Name....">
+        </div>
+        <br>
+
+        <div class="form-group">
+            <label for="last">Last Name</label>
+            <br><br>
+            <input type="text" id="last" placeholder="Last Name....">
+        </div>
+        <br>
+
+        <div class="form-group">
+            <label for="gander">Gender:</label>
+            <br><br>
+            <input type="radio" name="gender" id="male"><label for="male">Male</label><br>
+            <input type="radio" name="gender" id="female"><label for="female">Female</label><br>
+            <input type="radio" name="gender" id="other"><label for="other">Other</label>
+        </div>
+        <br>
+
+        <div class="form-group">
+            <label class="national">Nationality:</label><br><br>
+            <select name="national">
+                <option value="indonesia">Indonesian</option>
+                <option value="indonesia">Malaysian</option>
+                <option value="indonesia">Turki</option>
+                <option value="indonesia">Palestine</option>
+            </select>
+        </div>
+        <br>
+
+        <div class="form-group">
+            <label for="speaking">Language Spoken:</label><br><br>
+            <label><input type="checkbox" name="indonesia" id="speaking">Indonesian</label><br>
+            <label><input type="checkbox" name="english" id="speaking">English</label><br>
+            <label><input type="checkbox" name="japan" id="speaking">Japan</label><br>
+            <label><input type="checkbox" name="arab" id="speaking">Arab</label><br>
+        </div>
+        <br>
+
+        <div class="form-group">
+            <label for="bio">Bio:</label><br><br>
+            <textarea name="pesan" id="bio" cols="30" rows="10" placeholder="Bio...."></textarea>
+        </div>
+        <button type="submit">Sign Up</button>
+    </form>
+</body>
+
+</html>
